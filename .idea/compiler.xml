@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flink" />
-        <module name="StructStreaming" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="structstreaming" target="1.8" />
+      <module name="flink" target="1.8" />
+      <module name="StructStreaming" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
