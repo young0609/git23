@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="Test">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\idea\workspaceIdea\Test\target/.scala_dependencies" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="flink">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\idea\workspaceIdea\Test\flink\target/.scala_dependencies" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="structstreaming">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\idea\workspaceIdea\Test\structstreaming\target/.scala_dependencies" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+    <profile name="Maven 4" modules="StructStreaming">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\idea\workspaceIdea\Test\StructStreaming\target/.scala_dependencies" />
+        <parameter value="-target:jvm-1.8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

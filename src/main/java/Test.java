@@ -1,3 +1,5 @@
+import org.apache.spark.SparkContext;
+
 /**
  * Created by young
  * Date: 20/10/13
@@ -9,11 +11,6 @@ public class Test {
 
         System.out.println("hh");
 
-        //master
-
-        //dev
-        
-        //remote
 
     }
 
