@@ -11,6 +11,9 @@ object Test {
 
 
 
+    print("cccccccc")
+
+
   }
 
 }
